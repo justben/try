@@ -14,6 +14,8 @@ int main()
 {
     int sum;
     int s;
+    
+    srand(time(NULL));
 
     sum = get_rand();
 
@@ -28,8 +30,6 @@ int get_rand(void)
 {
     int die1, die2;
     int workSum;
-
-    srand(time(NULL));
 
     die1 = 1 + rand() % 6;
     die2 = 1 + rand() % 6;
