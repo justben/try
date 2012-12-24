@@ -72,7 +72,7 @@ int Panduan2(int sum)
         s = 1;
     }
     else{
-        Panduan2(sum);
+        s = Panduan2(sum);
     }
 
     return(s);
